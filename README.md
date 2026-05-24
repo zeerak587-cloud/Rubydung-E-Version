@@ -32,12 +32,12 @@ If IntelliJ does not auto-detect the local JDK, add it manually:
 3. Select:
 
 ```text
-$PROJECT_DIR$\jdk8
+$PROJECT_DIR$\java8
 ```
 
 4. Set the project SDK to that Java 8 SDK.
 
-The extracted `jdk8` folder is excluded from the IntelliJ module so its bundled
+The extracted `java8` folder is excluded from the IntelliJ module so its bundled
 Java demo/sample files are not treated as RubyDung source code.
 
 ## Files

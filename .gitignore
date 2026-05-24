@@ -7,11 +7,10 @@
 /out/
 *.class
 
-# Local extracted JDK
+# Old local extracted JDK folder name
 /jdk8/
 
 # Logs and temp files
 *.log
 *.tmp
 *.bak
-
