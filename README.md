@@ -37,6 +37,9 @@ $PROJECT_DIR$\jdk8
 
 4. Set the project SDK to that Java 8 SDK.
 
+The extracted `jdk8` folder is excluded from the IntelliJ module so its bundled
+Java demo/sample files are not treated as RubyDung source code.
+
 ## Files
 
 - `level.dat` stores the current world.
