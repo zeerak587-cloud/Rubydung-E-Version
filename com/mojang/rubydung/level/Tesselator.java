@@ -81,12 +81,12 @@ public class Tesselator {
     }
 
     public void vertex(float x, float y, float z) {
-        this.vertexBuffer.put(this.vertices * 3 + 0, x).put(this.vertices * 3 + 1, y).put(this.vertices * 3 + 2, z);
+        this.vertexBuffer.put(x).put(y).put(z);
         if (this.hasTexture) {
-            this.texCoordBuffer.put(this.vertices * 2 + 0, this.u).put(this.vertices * 2 + 1, this.v);
+            this.texCoordBuffer.put(this.u).put(this.v);
         }
         if (this.hasColor) {
-            this.colorBuffer.put(this.vertices * 3 + 0, this.r).put(this.vertices * 3 + 1, this.g).put(this.vertices * 3 + 2, this.b);
+            this.colorBuffer.put(this.r).put(this.g).put(this.b);
         }
         ++this.vertices;
         if (this.vertices == 100000) {
@@ -94,4 +94,3 @@ public class Tesselator {
         }
     }
 }
-
