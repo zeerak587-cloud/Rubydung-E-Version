@@ -16,7 +16,7 @@ The project is configured with:
 - Main class: `com.mojang.rubydung.RubyDung`
 - Working directory: `$PROJECT_DIR$`
 - Native library path: `$PROJECT_DIR$\natives`
-- LWJGL jars from the PrismLauncher library cache
+- LWJGL jars from `$PROJECT_DIR$\lib`
 
 Use the included `RubyDung` run configuration from the IntelliJ run dropdown.
 
@@ -41,5 +41,5 @@ $PROJECT_DIR$\jdk8
 
 - `level.dat` stores the current world.
 - `terrain.png` is loaded as a classpath resource.
+- `lib` contains the LWJGL 2 jars used at compile time.
 - `natives` contains extracted LWJGL 2 Windows DLLs.
-

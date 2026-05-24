@@ -10,8 +10,8 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/Users/zeera/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar!/" />
-          <root url="jar://C:/Users/zeera/AppData/Roaming/PrismLauncher/libraries/org/lwjgl/lwjgl/lwjgl_util/2.9.4-nightly-20150209/lwjgl_util-2.9.4-nightly-20150209.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/lwjgl-2.9.4-nightly-20150209.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/lwjgl_util-2.9.4-nightly-20150209.jar!/" />
         </CLASSES>
         <JAVADOC />
         <NATIVE>
